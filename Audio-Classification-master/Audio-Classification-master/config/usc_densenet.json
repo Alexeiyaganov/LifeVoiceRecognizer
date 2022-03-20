@@ -1,0 +1,15 @@
+{
+	"dataset_name": "USC",
+	"data_dir": "C:/Users/skienbear/Desktop/LifeVoiceRecognizer-master/hackaton_ds/train",
+	"dataaug": true,
+	"pretrained": true,
+	"scheduler": true,
+	"model": "densenet",
+	"batch_size": 32,
+	"num_workers": 8,
+	"epochs": 20,
+	"lr": 1e-4,
+    "weight_decay": 1e-3,
+    "num_folds": 10,
+    "checkpoint_dir": "C:/Users/skienbear/Desktop/LifeVoiceRecognizer-master/hackaton_ds/test"
+}
